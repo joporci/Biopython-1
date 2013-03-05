@@ -1,21 +1,22 @@
-1. the print command outputs the data and display on the screen
+1. the assignment statement gives a variable a value so it can be interpreatated by python
 
-2. Done!!!
+2. the 5 basic variable types are: int, float, string, bool and none.
 
-3. when the print command sees a comma, it leaves space and when it sees a backslash n (\n) it begins a newline.
+3. the value is 1 because the expression is expressed in int form instead of the float form
 
-4. 
+4. by using the % sign instead of / sign
 
-5. program, hello5.py
+5. date.py
 
-6. program, poem.py
+6. x1000.py
 
-7. print x
+7. "Harry's Hippie Hoedown: tickets only $5"
 
-8. let a and b be the expressions: type print a, b
+8. same as 7.
 
-9. program, data.py
+9. 'ABBA'
 
-10. first you can include everything in double quotes.
-    secondly u can use the backslash before the apostrophe.
-    thirdly you can use tripple quotes and include everything in that
+10. 'during t'
+
+11. "BAAB was a Danish band unpopular during the 90's"
+
