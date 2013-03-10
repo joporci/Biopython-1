@@ -1,0 +1,31 @@
+Given the list l = ['There', 'are', 9000000, 'bicycles', 'in', 'Beijing']
+1. len(l) = 6
+
+2. 2
+
+3. print l[1:4] = 
+['are', 9000000, 'bicycles']
+
+4. q4list.py
+
+5. q5list.py
+
+6. q6list.py
+
+7. q7list.py
+
+8. q8list.py
+
+9. q9list.py
+
+10. q10list.py
+
+11. q11list.py
+
+12. q12list.py
+
+13. q13list.py
+
+14. q14list.py
+
+15. q15list.py
