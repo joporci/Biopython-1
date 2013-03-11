@@ -10,13 +10,14 @@ if (capital == 'y' and population > 100000) or (population > 200000 and income >
 	less_pop_name = name									# the name of the city with less population
 	more_income = 0										# the starting value for more_income
 	more_income_name = "no city"								# the name of the city with more income
-	metro = [name]
+	metro = [name]										# creating a list for metropolitans
 
 else:
 	less_pop = 9999999999999999999999999999999	# if not metropoly starting value for city pop
 	less_pop_name = "no city"			# starting name for the city with less pop
 	more_income = income				# more_income, starting value
 	more_income_name = name				# name of the city with more income
+	metro = []					# if the first entry is not a metro then the starting list for metro is empty
 
 
 if capital == 'y':				# if the city is a capital city
@@ -40,7 +41,7 @@ for a in range(1, 7):				# the loop repeats 6 times asking the city details
 		if population < less_pop:		# compares the population value with the previous value
 			less_pop = population		# if true gives a new value for less_pop
 			less_pop_name=name		# and a new name for the city with less pop
-		metro = [metro] + [name]
+		metro = metro + [name]
 
 
 		if capital == 'y':			# if city is capital
