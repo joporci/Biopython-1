@@ -4,4 +4,4 @@ def temp_changer(celcius):	# defining the function
 	far = 1.8*celcius+32	# the conversion of temperature in degrees to fahreinheit
 	return far		# gives the function its meaning
 
-temp_changer(value)		# to check if the function is working
+print temp_changer(value)		# to check if the function is working, the value must be an integer or float point
