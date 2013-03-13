@@ -1,0 +1,10 @@
+q1. enclose the elements in paranthesis
+
+q2. concatenation is adding the elements in a tuple and the + operator is for cancatenation because tuples are immutable.
+
+q3. a,b,c = b,c,a will swap the value of a to b, b to c and c to a. if this is done indefitely the value of a is swapped to b then the next time to c then it goes back to its original value and the same happens for b and c.
+
+q4. a = (). To append to a, use the + sign and the element followed by a comma in paranthesis e.g a = a + (1,)
+
+q5. q5.py
+

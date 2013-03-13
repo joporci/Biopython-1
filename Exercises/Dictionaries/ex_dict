@@ -1,0 +1,22 @@
+d = {
+    "fruits": ["apples", "oranges", "pears", "mangoes"],
+    "vegetables": ["tomatoes", "lettuce", "spinach", "green peppers"],
+    "meat": ["chicken", "fish", "beef", "ostrich"],
+    "dairy": ["yogurt", "milk", "cheese", "ice-cream"]
+}
+
+1. d.keys() = 4
+
+2. d.values() = 4
+
+3. d['meat'] = ['chicken', 'fish', 'beef', 'ostrich']
+
+4. d['dairy'][2] = 'cheese'
+
+5. accessing 'spinach' = d['vegetables'][2]
+
+6. adding a new fruit e.g 'grapes' :   d['fruits'] = d['fruits'] + ['grapes']
+
+7. q7.py
+
+
