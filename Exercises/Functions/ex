@@ -1,0 +1,43 @@
+def suffix(m, s, chop = None):
+    if chop == None:
+		chop = -len(m)
+    return m[:-(chop)]+s
+
+def prefix(m, p):
+	return p+m
+
+s = "hand"
+print suffix(s, "y")
+print suffix("conceivable", "y", 1)
+print prefix("conceivable", "in")
+
+Ex 2/3
+
+
+1. 'hand'
+
+2. 'y'. It is assigned when calling the function and give the parameters of the function
+
+3. 'in' 
+
+4. print suffix(prefix("conceivable", "in"), "y", 1) = inconceivably
+
+5. prefix(suffix('conceivable', 'y',1), 'in')
+
+6. prefix(suffix(m = '', s = '',chop = None), 'a')
+
+
+
+
+Ex3/3
+
+1. q1_3.py
+
+2. q2_3.py
+
+q3. q2_3.py
+
+Q4. q4_3.py
+
+q5. 
+

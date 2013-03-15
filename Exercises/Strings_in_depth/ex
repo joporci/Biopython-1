@@ -1,0 +1,25 @@
+1. first, find the positions of the : and slice and concatenate with the desired character.... concatenate the new string with the rest 
+of the unsliced string and repeat the steps
+
+2. No. because u can just put the (key) and it goes and search in the dictionary	
+
+3. q3.py
+
+4. q4.py
+
+5. the value of  "Laziness is a %s."%("virtue") is  'Laziness is a virtue.'
+
+6. "30 days hath September, April, June and November. I use my knuckles for the other 8, because I can't remember this rhyme for ..."
+
+7. The value for "%02i/%02i/%04i"%(10,3,2009) is 10/03/2009
+
+8. The value for "%5.3f"%(3.1415) is '3.142'
+
+9. q9.py
+
+10. q10.py
+
+11. q11.py
+
+12. q12.py
+

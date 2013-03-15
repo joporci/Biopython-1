@@ -9,6 +9,9 @@ guest_book = {}
 while name != 'quit':
 	guest_book[name] = comment
 	name = raw_input('Enter name or "type quit to exit the program"  ').lower
+	if name == 'showcomments':
+		for name,comment in guest_book.items():
+			print name, comment
 	if name != 'quit':
 		if name in guest_book.keys():
 			print guest_book[name]
