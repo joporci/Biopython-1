@@ -1,0 +1,13 @@
+file_name = '3AYU.pdb'
+test = open('test.pdb', 'r')
+option = 'H'
+aaA = ''
+aaB = ''
+for line in test:
+	if option == 'H':
+		if 'SEQRES' in line:
+			if chain == 'A':
+				aaA = aaA + line[19:].rstrip() + ' '
+			else:
+				aaB = aaB + line[19:].rstrip() + ' '	
+
