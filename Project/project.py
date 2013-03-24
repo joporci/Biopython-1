@@ -405,6 +405,10 @@ while option != 'Q':
 									print line,
 						confirm = raw_input('Y/N? ').upper()
 						if confirm == 'Y':
+							for tup in helix:
+								if ask_again == tup[1]:
+									index = helix.index(tup)
+									del helix[index]
 							print 'The Helix '+ask_again+' has been successfully removed.'
 						else:
 							print 'The helix could not be deleted due to lack of confirmation'
@@ -417,6 +421,10 @@ while option != 'Q':
 									print line,
 						confirm = raw_input('Y/N? ').upper()
 						if confirm == 'Y':
+							for tup in sheet:
+								if ask_again == tup[1]:
+									index = sheet.index(tup)
+									del sheet[index]
 							print 'The Sheet '+ask_again+' has been successfully removed.'
 						else:
 							print 'The sheet could not be deleted due to lack of confirmation'
